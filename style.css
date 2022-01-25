@@ -1,0 +1,110 @@
+.navbar-nav{
+    margin: auto;
+}
+.fa-search{
+    font-size: 24px;
+}
+.bg-warning {
+    background-color: #ff863f!important;
+}
+.banner{
+    background-image: url(images/banner%201.jpg);
+    height: 800px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.mask{
+    background-color: rgba(0, 0, 0, .5);
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+.banner:after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.banner-h{
+    padding-top: 100px;
+}
+.banner-p{
+    width: 500px;
+    text-align: justify;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.btn-warning {
+    color: #ffffff;
+    background-color: #FF6409;
+    border-color: #FF6409;
+}
+.btn-warning:hover {
+    color: #ffffff;
+    background-color: #ff863f;
+    border-color: #ff863f;
+}
+.portfolio{
+    background-color: #FF6409;
+    min-height: 400px;
+}
+.portfolio:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.card-body {
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+    background-color: #2C2C2C;
+}
+.card{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.pricing{
+    background-color: #2C2C2C;
+    min-height: 400px;
+}
+.p-card{
+    background-color: #FF6409;
+}
+.p-card-body{
+    background-color: #FF6409;
+}
+.leaflet1{
+    background-color: #2C2C2C;
+    padding-top: 50px;
+}
+.leaflet1-right{
+    background-color: #FF6409;
+    padding-top: 200px;
+    text-align: justify;
+    height: 100%;
+}
+.leaflet-button{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 35%;
+}
+.leaflet2{
+    background-color: #2C2C2C;
+    padding-top: 50px;
+}
+.leaflet2-left{
+    background-color: #FF6409;
+    padding-top: 200px;
+    text-align: justify;
+    height: 100%;
+}
+.statistic{
+    background-color: #2C2C2C;
+    min-height: 400px;
+    padding-top: 50px;
+}
+.footer-back{
+    background-color: #2f2828;
+    padding-top: 100px;
+}
